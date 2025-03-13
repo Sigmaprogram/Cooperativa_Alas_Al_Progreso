@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+}
+
+/* Header y navegación */
+.header {
+    background-color: #2c3e50; /* Azul oscuro */
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.containerlogo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.containertitles h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.containertitles p {
+    margin: 0;
+    font-size: 14px;
+    color: #bdc3c7; /* Gris claro */
+}
+
+/* Menú vertical */
+.verticalcontainer {
+    background-color: #34495e; /* Azul grisáceo */
+    width: 200px;
+    padding: 20px;
+    height: 100vh;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.verticalmenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuitem {
+    margin-bottom: 10px;
+}
+
+.menuitem a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: #2c3e50; /* Azul oscuro */
+    border: 1px solid #1abc9c; /* Verde azulado */
+    border-radius: 0; /* Bordes cuadrados */
+    transition: background-color 0.3s;
+}
+
+.menuitem a:hover {
+    background-color: #1abc9c; /* Verde azulado */
+    color: white;
+}
+
+.submenu {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 5px;
+    display: none;
+}
+
+.submenu li a {
+    padding: 8px;
+    background-color: #2c3e50; /* Azul oscuro */
+    border: 1px solid #1abc9c; /* Verde azulado */
+    border-radius: 0; /* Bordes cuadrados */
+    margin-top: 5px;
+}
+
+/* Contenido principal */
+.container-content {
+    display: flex;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Tarjetas */
+.card {
+    background-color: #2c3e50; /* Azul oscuro */
+    border: 1px solid #1abc9c; /* Verde azulado */
+    border-radius: 0; /* Bordes cuadrados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white; /* Texto blanco */
+    display: block;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white; /* Texto blanco */
+}
+
+.card-content p {
+    margin: 0;
+    color: #bdc3c7; /* Gris claro */
+}
+
+/* Estilos para el título del contenido */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Texto blanco */
+    font-size: 28px;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #1abc9c; /* Verde azulado */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #16a085; /* Verde azulado más oscuro */
+}
